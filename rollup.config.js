@@ -35,7 +35,7 @@ export default {
 			}),
 			url({
 				sourceDir: path.resolve(__dirname, 'src/node_modules/images'),
-				publicPath: '/client/'
+				publicPath: 'client/'
 			}),
 			resolve({
 				browser: true,
@@ -87,7 +87,7 @@ export default {
 			}),
 			url({
 				sourceDir: path.resolve(__dirname, 'src/node_modules/images'),
-				publicPath: '/client/',
+				publicPath: 'client/',
 				emitFiles: false // already emitted by client build
 			}),
 			resolve({

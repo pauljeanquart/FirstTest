@@ -1,13 +1,13 @@
 var ghpages = require('gh-pages');
 
 ghpages.publish(
-    '__sapper__/export/yourproject',// <-- replace yourproject with your repo name
+    '__sapper__/export',// <-- replace yourproject with your repo name
     {
         branch: 'gh-pages',
-        repo: 'https://github.com/username/yourproject.git',
+        repo: 'https://github.com/pauljeanquart/my-app.git',
         user: {
-            name: 'Your name',
-            email: 'Your Email address'
+            name: 'Paul Jeanquart',
+            email: 'paul.jeanquart@gmail.com'
         }
     },
     () => {
